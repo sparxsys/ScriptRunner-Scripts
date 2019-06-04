@@ -3,7 +3,13 @@ import com.atlassian.jira.component.ComponentAccessor
 
 def projectManager = ComponentAccessor.getProjectManager()
 
-//return projectManager.getProjects()[1]
-
+//These 2 lines can delete a project
 def delete_project = projectManager.getProjects()[1]
-return projectManager.removeProject(delete_project)
+projectManager.removeProject(delete_project)
+
+/*
+Better example can be found here: https://community.atlassian.com/t5/Jira-questions/Delete-Projects-using-Groovy-from-console/qaq-p/225337
+Basically you need to validate first
+
+ */
+
