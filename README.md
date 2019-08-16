@@ -2,6 +2,8 @@ This is a repository of some useful groovy scripts to make your life easier. The
 
 Of course you need ScriptRunner.
 
+The ScriptRunner for Jira video tutorials can be found here: https://go.ravi.pro/ScriptRunnerJira
+
 Enjoy and no need to say thanks :)
 
 Ravi Sagar
