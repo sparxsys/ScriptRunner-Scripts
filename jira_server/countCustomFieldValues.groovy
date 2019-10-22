@@ -1,3 +1,9 @@
+/**
+   
+ */
+
+
+
 import com.atlassian.jira.component.ComponentAccessor
 import com.atlassian.jira.bc.issue.search.SearchService
 import com.atlassian.jira.jql.parser.JqlQueryParser
@@ -29,11 +35,11 @@ search.results.each { documentIssue ->
     log.debug(documentIssue.key)
 
     IssueManager im = ComponentAccessor.getIssueManager()
-	MutableIssue issue = im.getIssueObject(documentIssue.id)
+    MutableIssue issue = im.getIssueObject(documentIssue.id)
     // do something to the issue...
     log.debug(issue.summary)
     
-	def customFieldManager = ComponentAccessor.getCustomFieldManager()
+    def customFieldManager = ComponentAccessor.getCustomFieldManager()
     def cField = customFieldManager.getCustomFieldObjectsByName("Select List")
          
     def cFieldValue = issue.getCustomFieldValue(cField[0])

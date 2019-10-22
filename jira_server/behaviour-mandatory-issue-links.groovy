@@ -1,3 +1,8 @@
+/**
+ * Make the links field required when there are no existing link and
+ * the link type is "is part of"
+ */
+
 import com.atlassian.jira.component.ComponentAccessor
 import com.atlassian.jira.issue.link.IssueLink
 

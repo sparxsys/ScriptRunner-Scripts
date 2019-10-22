@@ -1,6 +1,8 @@
 /**
+* How to fetch the base url of a Jira issue
 * Video link: 
 */
+
 import com.atlassian.jira.issue.IssueManager
 import com.atlassian.jira.issue.MutableIssue
 import com.atlassian.jira.component.ComponentAccessor
