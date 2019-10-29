@@ -1,6 +1,6 @@
 /**
 * Post function to update project role from user picker field
-* Video link: 
+* Video link: https://youtu.be/0--2IoU6KCA
 **/
 //import com.atlassian.jira.issue.IssueManager
 //import com.atlassian.jira.issue.MutableIssue
