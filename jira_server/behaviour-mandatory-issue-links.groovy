@@ -1,6 +1,7 @@
 /**
  * Make the links field required when there are no existing link and
  * the link type is "is part of"
+ * Video link: https://youtu.be/q4KfHSTdVeA
  */
 
 import com.atlassian.jira.component.ComponentAccessor
