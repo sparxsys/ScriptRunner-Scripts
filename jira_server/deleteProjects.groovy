@@ -1,3 +1,7 @@
+/** 
+* Script to delete a project
+* Video link: 
+**/
 package com.example
 import com.atlassian.jira.component.ComponentAccessor
 

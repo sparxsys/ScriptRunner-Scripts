@@ -2,7 +2,7 @@
 * Post function to update the message field (Text field read only) with a custom message
 * This field can only be updated while importing or using code
 * Refer to this link: https://community.atlassian.com/t5/Jira-Core-questions/Text-Field-read-only/qaq-p/182646
-* Video link: 
+* Video link: https://youtu.be/gJfoB2q4LIk
 **/
 
 import com.atlassian.jira.component.ComponentAccessor
@@ -18,7 +18,7 @@ def cFieldValue = issue.getCustomFieldValue(cField[0])
 //Prepare the message with system field or custom message
 def message = "*Issue status*: " + 
     			issue.getStatus().name + "\n" +
-    		"*This is a message*"
+    		"*This is a message that can be displayed*"
 
 //update the value
 def changeHolder = new DefaultIssueChangeHolder()

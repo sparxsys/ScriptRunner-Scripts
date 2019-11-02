@@ -1,3 +1,8 @@
+/**
+* Fetch the value of a custom field by its name
+*
+**/
+
 import com.atlassian.jira.issue.IssueManager
 import com.atlassian.jira.issue.MutableIssue
 import com.atlassian.jira.component.ComponentAccessor
