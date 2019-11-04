@@ -3,6 +3,7 @@
 * This field can only be updated while importing or using code
 * Refer to this link: https://community.atlassian.com/t5/Jira-Core-questions/Text-Field-read-only/qaq-p/182646
 * Video link: https://youtu.be/gJfoB2q4LIk
+
 **/
 
 import com.atlassian.jira.component.ComponentAccessor
