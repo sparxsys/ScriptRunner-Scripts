@@ -8,10 +8,10 @@ def log = Logger.getLogger("in.ravisagar.sr4j")
 log.setLevel(Level.DEBUG)
 
 def projectManager = ComponentAccessor.getProjectManager()
-def project = projectManager.getProjectObjByName("Renamed Project")
+def project = projectManager.getProjectObjByName("Old project")
 
 if(project) {
-    def updateProjectParameters = UpdateProjectParameters.forProject(project.id).name("Trying again")
+    def updateProjectParameters = UpdateProjectParameters.forProject(project.id).name("New project")
     projectManager.updateProject(updateProjectParameters)
     log.debug("Project renamed")
 }
