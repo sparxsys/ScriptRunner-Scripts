@@ -4,7 +4,7 @@ import com.atlassian.jira.component.ComponentAccessor
 
 def emailSubject = "Test Email Subject"
 def emailBody = "Test Email Body"
-def emailAddress = "erinkristi@gmail.com"
+def emailAddress = "ravisagar@gmail.com"
 
 
 SMTPMailServer mailServer = ComponentAccessor.getMailServerManager().getDefaultSMTPMailServer()
