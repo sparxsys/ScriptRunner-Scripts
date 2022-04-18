@@ -1,0 +1,22 @@
+ def resp = post('/rest/api/3/project')
+        .header('Content-Type', 'application/json')
+        .body(
+                [
+                    key: "PROJXYZZ",
+                    name: "PROJXYZZ",
+                    projectTypeKey: "business",
+                    projectTemplateKey: "com.atlassian.jira-core-project-templates:jira-core-project-management",
+                    description: "Rest demo project",
+                    leadAccountId: "557058:f2a3043a-ebcb-4815-9277-e0e14c4d9776",
+                    url: "http://www.ravisagar.in",
+                    assigneeType: "PROJECT_LEAD",
+                    avatarId: 10200,
+                    notificationScheme: 10007
+                ]
+
+                
+                )
+        .asString().body
+        
+return resp
+
