@@ -1,3 +1,8 @@
+/**
+ * Code to fetch issue details
+ * Video: https://youtu.be/3570FeZ7pqQ
+ * Tested on version: Jira: 8.22.2, ScriptRunner for Jira: 6.50.0
+ */
 import com.atlassian.jira.component.ComponentAccessor
 import com.atlassian.jira.issue.IssueManager
 
