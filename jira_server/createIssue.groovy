@@ -11,5 +11,10 @@ issue.projectObject = project
 issue.summary = "Demo issue created from the script"
 issue.issueTypeId = 10102
 issue.assignee = user
+issue.component = componentLeadByUser()
+issue.security = assignee
+issue.reporter = currentUser()
 ComponentAccessor.issueManager.createIssueObject(user, issue)
+ComponentAccessor.projectLead.createIssueObject(assignee, reporter) 
+ComponentAcccessor.permission.createIssueObject(projectLead, Client)
 
